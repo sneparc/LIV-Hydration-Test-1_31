@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LIV Hydration Therapy</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Media query for narrow browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 400px) and (max-width: 767px)" href="styles/mobile.css" />
+
+		<!-- Media query for tablets -->
+		<link rel="stylesheet" media="only screen and (min-width : 768px) and (max-width : 960px)" href="styles/tablet.css" />
+
+		<!-- Media query for full browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/desktop.css" />
+
+		<!-- Prevents smartphones from scaling pages down -->
+		<meta name="viewport" content="initial-scale=1">
+	<style>
+	
+	@media all and (max-width: 320px){
+		body{
+				background-color: rgb(239, 239, 239);
+
+			}
+		#banner img{
+			position: relative;
+			top: 11px;
+			left: -73px;
+			margin-left: 0;
+			height: 151px;
+			width: 373px;
+	
+		}
+		#banner{
+			margin-right: 0px;
+			height: 300px;
+			margin-top: -30px;
+			background-image: url('http://upload.wikimedia.org/wikipedia/commons/6/69/Blank_Map_of_Long_Island.svg');
+			background-repeat: no-repeat;
+			background-position: 100px;
+			background-size: 114% 50%;
+			background-position: 5% 10%;
+			}
+
+		nav{
+				position: relative;
+				z-index: 1;
+				margin:0 auto;
+				/*background-color: #888;*/
+				width: 900px;
+				height:25px;
+
+			}
+		nav ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    width:100%;
+			}
+
+		nav li {
+				margin-left:auto;
+			    display: inline;
+			    float:left;
+			    width: 25%;
+			    color: #000;
+			}
+
+		nav a:link {
+			    display: block;
+			    padding: 4px;
+    			padding-right: 10px;
+				color:#000;
+   			    text-align: center;
+   			    text-decoration: none;  
+			}
+
+		nav{
+			min-width: 400px;
+		
+			background-color: none;
+		
+		}
+		nav ul {
+			min-width: 400px;
+			
+		/*	width: 100%*/
+
+			}
+
+		nav li {
+				min-width: 480px;
+				margin: 3px;
+				margin-left: 0px;
+				/*border-color: #888*/
+			}
+
+
+		nav a:visited{
+			min-width: 400px;
+		
+			background-color: #888;
+
+			}
+
+		nav a:link, a:visited {
+			padding: 2px;
+			padding-bottom: 2px;
+			background-color: #888;
+			min-width: 476px;
+			
+		}
+		nav a:hover{
+   			 background-color:grey; 
+   			 color: #fff;
+   			min-width: 316px;
+			
+   			}
+
+		nav a:link, a:visited{
+				color: black;
+				padding-bottom: 7px;
+				
+			}
+
+		nav a:hover{
+			background-color: rgb(0,29, 141);
+		}
+
+		nav{
+			position:absolute;
+			top:10px;
+		}
+
+		#banner h4{
+			position: absolute;
+			top: 247px;
+			font-size: 1.17em;
+		}
+
+		#banner p{
+			position: relative;
+			top: 152px;
+			margin-left: 41px;
+		}
+
+		#homeContent{
+			position: relative;
+			top:97px;
+		}
+
+		nav{
+			position: absolute;
+			top:143px;
+		}
+		#footer{
+			position: relative;
+			top:10px;
+		}
+		#footer h4{
+			position: relative;
+			top:146px;
+			font-size: 13px;
+
+		}
+		#footer img{
+			position: relative;
+			top:15px;
+		}
+		nav a:link{
+			width: 50px;
+		}
+
+		nav a:link, a:visited{
+			min-width: 316px;
+		}
+
+		nav li{
+		
+			width: 100px;
+
+		}
+
+	}
+
+
+
+
+	@media all and (min-width: 399px){
+		#banner img{
+			position: relative;
+			top: 100px;
+			left:-125px;
+			margin-left: -520px;
+			height:150px;
+		
+		}
+		#banner{
+			background-size: 50% 50%;
+			background-position: -140px 30px;
+			margin-right: 0px;
+			height: 300px;
+			margin-top: -30px;
+		}
+			
+		#banner h4 {
+			position: relative;
+			top:-30px;
+			left:-150px;
+			font-size: 10px;
+		}
+		#banner p{
+			position: relative;
+			top:-30px;
+			left:-150px;
+			font-size: 10px
+		}
+
+		#banner{
+			height: 150px;
+		}
+
+		nav a:link, a:visited{
+			padding:2px;
+			padding-bottom: 2px;
+
+		}
+
+
+		#footer{
+			position:absolute;
+			top:700px;
+			left: -50px;
+
+		}
+
+
+		@media all and (min-width: 400px){
+		#banner img{
+			position: relative;
+			top: 100px;
+			left:-125px;
+			margin-left: -520px;
+			height:150px;
+		
+		}
+		#banner{
+			background-size: 54% 67%;
+			background-position: -140px 30px;
+			margin-right: 0px;
+			height: 300px;
+			margin-top: -30px;
+		}
+			
+		#banner h4 {
+			position: relative;
+			top:-30px;
+			left:-150px;
+			font-size: 10px;
+		}
+		#banner p{
+			position: relative;
+			top:-30px;
+			left:-150px;
+			font-size: 10px
+		}
+
+		#banner{
+			height: 67px;
+		}
+
+		nav a:link, a:visited{
+			padding:2px;
+			padding-bottom: 7px;
+			margin-top: 3px;
+
+
+
+		}
+
+		#footer{
+			position:absolute;
+			top:700px;
+			left: -50px;
+
+		}
+		
+		#banner{
+			padding-bottom: 82px;
+			padding-left: -2px;
+			background-position: -27% 47%;
+		}
+
+		#banner h4{
+			left: -142px;
+		}
+
+		#banner p{
+			left: -144px;
+		}
+
+
+
+		}
+
+
+		@media all and (min-width : 768px) and (max-width : 960px){
+			#banner img{
+				position: relative;
+				top: 64px;
+				left:-68px;
+				height: 164%;
+				width: 33%;
+			}
+			#banner{
+				background-size: 70% 70%;
+				background-position: -14% 37%;
+				height: 200px;
+			}
+
+			#banner h4{
+			 	margin-top: -127px;
+			 	margin-right: -531px;
+			 	position: relative;
+			 	right:-500px;
+			 	
+			}
+			
+			#banner p{
+				margin-right: -525px;
+			
+			}
+
+			nav a:link, nav a:visited{
+				margin-top: 3px;
+			}
+
+			nav li{
+				border: solid 1pt #000;
+			}
+		
+			#footer{
+			position:absolute;
+			top:800px;
+			left: -50px;
+			}
+			
+			#footer img{
+				position: relative;
+				top:-131px;
+			}
+
+		}
+
+
+
+	@media all and (min-width: 961px){
+		#banner img{
+			position: relative;
+			top: 100px;
+			left:0;
+			margin-left: -550px;
+			height: 120%;
+		
+		}
+		#banner{
+			background-size: 90% 90%;
+			background-position: -200px;
+			margin-right: 0px;
+			height: 200px;
+			margin-top: -30px;
+		}
+			
+		#banner h4 {
+			margin-right:-573px;
+			margin-top: -48px;
+			font-size: 15px;
+		}
+		#banner p{
+			margin-right:-571px;
+			font-size: 15px;
+		}
+
+		#footer{
+			text-align: center;
+		}
+
+		#footer h4{
+			margin-left: 20px;
+		}
+
+		
+
+	
+	
+}
+
+	</style>
+     	 <link rel="shortcut icon" type="image/x-icon" href="images/liv-logo 2.png">
+	</head>
+	<body>
+		<div id="banner">
+				<a href="index.html">
+				<img src="images/liv-logo.png" width="560px" height="335px"/>
+				</a>
+				<h4>Treating patients in:</h4> 
+				<p>Eastern Long Island</p>
+				<p>Hamptons</p>
+				<p>New York City</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="ConciergeServices.html">Concierge Services</a></li>
+				<li><a href="Reservations.html">Reservations</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div id="sectionWrap">
+			<section id="homeContent">
+				<h3>LIV Hydration Therapy treats:</h3>
+					<ul>
+						<li>Dehydration</li>
+						<li>Exercise Fatigue</li>
+						<li>Hangover</li>
+						<li>Flu/Common Cold</li>
+						<li>Vitamin Deficiency</li>
+						<li>Food Poisoning</li>
+						<li>General Medical/Surgical Consults</li>
+					</ul>
+				<h3>About Us:</h3>
+				<p>LIV Hydration provides discreet, professional concierge medicine in 
+
+the comfort of your own home or office. Our products range from 
+
+IV fluids to pain relief to vitamin injections. Appointments may be 
+
+scheduled as a one-time visit or on a recurring, regular basis. Feel 
+
+free to contact us with general medical inquiries as well. Although we 
+
+specialize in rehydration and revitalization, our goal is to work with 
+
+the patient and meet any and all needs. Our medical professionals 
+
+are all licensed by the State of New York and we look forward to 
+
+treating you and helping you feel better quickly. </p>
+			</section>
+			<section id="sideBar">
+				
+			</section>
+		</div>
+		<div class="clear"> </div>
+		<div id="footer">
+			<section><h4> L.I.V. Medical Hydration Therapy PLLC</h4></section>
+			<img src="images/liv-logo.png" width="200px" height="119.95px"/>
+		</div>
+	</body>
+</html>
