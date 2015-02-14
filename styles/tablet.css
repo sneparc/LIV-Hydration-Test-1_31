@@ -484,3 +484,22 @@ body{
 			margin-top: 3px;
 		}
 
+		nav{
+				margin-left: initial;
+			}
+		#Contact h4{
+			 	width: 400px;
+			}	
+
+		nav li {
+		margin: 2px;
+		}	
+
+		nav{
+			height: 38px;
+		}
+
+		#Contact h3{
+			left:-741px;
+		}
+

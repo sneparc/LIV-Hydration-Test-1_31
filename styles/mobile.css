@@ -564,7 +564,21 @@ body{
 
 			nav a:link, a:visited{
 				padding-bottom: 7px;
-				width: 316px;
+				width: 388px;
 				margin-top: 3px;
 				
 			}
+
+			.list-group{
+				width:382px
+			}
+
+			#ConciergeServices{
+				width: 382px;
+			}
+
+			#banner img{
+				width: 294px;
+			}
+
+			
